@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,6 +21,466 @@ body {
   height: 1.5em;
 }
 
+@charset "utf8";
+/*                                        ! Animation Gear Lights Started Here ...
+=======================================================================================================================*/
+/*
+*, *:after, *:before, html {
+  box-sizing: border-box
+}
+
+body, h1 {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  background: #000
+}
+
+.idea {
+  width: 500px;
+  height: 600px;
+  display: block;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%)
+}
+
+.container {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute
+}
+
+.container:nth-of-type(1) {
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, 0)
+}
+
+.container:nth-of-type(2) {
+  top: 25px;
+  left: 38.1%;
+  transform: translate(-38.1%, 0)
+}
+
+.container:nth-of-type(3) {
+  top: 25px;
+  right: 38.1%;
+  transform: translate(38.1%, 0)
+}
+
+.container:nth-of-type(4) {
+  top: 55px;
+  left: 27.9%;
+  transform: translate(-27.9%, 0)
+}
+
+.container:nth-of-type(5) {
+  top: 55px;
+  right: 27.9%;
+  transform: translate(27.9%, 0)
+}
+
+.container:nth-of-type(6) {
+  top: 103px;
+  left: 22%;
+  transform: translate(-22%, 0)
+}
+
+.container:nth-of-type(7) {
+  top: 103px;
+  right: 22%;
+  transform: translate(22%, 0)
+}
+
+.container:nth-of-type(8) {
+  top: 158px;
+  left: 22%;
+  transform: translate(-22%, 0)
+}
+
+.container:nth-of-type(9) {
+  top: 158px;
+  right: 22%;
+  transform: translate(22%, 0)
+}
+
+.container:nth-of-type(10) {
+  top: 212px;
+  left: 24.5%;
+  transform: translate(-24.5%, 0)
+}
+
+.container:nth-of-type(11) {
+  top: 212px;
+  right: 24.5%;
+  transform: translate(24.5%, 0)
+}
+
+.container:nth-of-type(12) {
+  top: 265px;
+  left: 27.9%;
+  transform: translate(-27.9%, 0)
+}
+
+.container:nth-of-type(13) {
+  top: 265px;
+  right: 27.9%;
+  transform: translate(27.9%, 0)
+}
+
+.container:nth-of-type(14) {
+  top: 316px;
+  left: 32.5%;
+  transform: translate(-32.5%, 0)
+}
+
+.container:nth-of-type(15) {
+  top: 316px;
+  right: 32.5%;
+  transform: translate(32.5%, 0)
+}
+
+.container:nth-of-type(16) {
+  top: 365px;
+  left: 38.1%;
+  transform: translate(-38.1%, 0)
+}
+
+.container:nth-of-type(17) {
+  top: 365px;
+  right: 38.1%;
+  transform: translate(38.1%, 0)
+}
+
+.container:nth-of-type(18) {
+  top: 420px;
+  left: 38.1%;
+  transform: translate(-38.1%, 0)
+}
+
+.container:nth-of-type(19) {
+  top: 420px;
+  right: 38.1%;
+  transform: translate(38.1%, 0)
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear
+}
+
+.container:nth-of-type(1) .box, .container:nth-of-type(4) .box, .container:nth-of-type(5) .box, .container:nth-of-type(8) .box, .container:nth-of-type(9) .box, .container:nth-of-type(12) .box, .container:nth-of-type(13) .box, .container:nth-of-type(16) .box, .container:nth-of-type(17) .box {
+  animation-direction: reverse
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+[class*="gear_"] {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  border-radius: 50%
+}
+
+.gear_1 {
+  background: #0000FF
+}
+
+.gear_2 {
+  background: #D2691E;
+  transform: rotate(-9deg)
+}
+
+.gear_3 {
+  background: #800000;
+  transform: rotate(9deg)
+}
+
+.gear_4 {
+  background: #808000;
+  transform: rotate(10deg)
+}
+
+.gear_5 {
+  background: #800080;
+  transform: rotate(-10deg)
+}
+
+.gear_6 {
+  background: #FF0000;
+  transform: rotate(28deg)
+}
+
+.gear_7 {
+  background: #FFFF00;
+  transform: rotate(21deg)
+}
+
+.gear_8 {
+  background: #808080;
+  transform: rotate(-5deg)
+}
+
+.gear_9 {
+  background: #008000;
+  transform: rotate(2deg)
+}
+
+.gear_10 {
+  background: #D2B48C;
+  transform: rotate(2deg)
+}
+
+.gear_11 {
+  background: #008080;
+  transform: rotate(-2deg)
+}
+
+.gear_12 {
+  background: #FF8C00;
+  transform: rotate(-12deg)
+}
+
+.gear_13 {
+  background: #FF1493;
+  transform: rotate(12deg)
+}
+
+.gear_14 {
+  background: #DDA0DD;
+  transform: rotate(-10deg)
+}
+
+.gear_15 {
+  background: #8B4513;
+  transform: rotate(10deg)
+}
+
+.gear_16 {
+  background: #B8860B;
+  transform: rotate(23deg)
+}
+
+.gear_17 {
+  background: #40E0D0;
+  transform: rotate(-23deg)
+}
+
+.gear_18, .gear_19 {
+  background: #fff
+}
+
+.circle {
+  background: #000;
+  width: 40px;
+  height: 40px;
+  top: 5px;
+  left: 5px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%
+}
+
+.tooth {
+  background: inherit;
+  width: 10px;
+  height: 60px;
+  top: -5px;
+  left: 20px;
+  display: block;
+  position: absolute
+}
+
+.tooth:nth-of-type(2) {
+  transform: rotate(45deg)
+}
+
+.tooth:nth-of-type(3) {
+  transform: rotate(90deg)
+}
+
+.tooth:nth-of-type(4) {
+  transform: rotate(135deg)
+}
+
+.title {
+  top: 30%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -30%)
+}
+
+h1, h1:before, h1:after {
+  background: #fff;
+  animation: light 10s infinite linear alternate
+}
+
+@keyframes light {
+  from {
+    box-shadow: 0 0 5px #fff
+  }
+  to {
+    box-shadow: 0 0 30px #fff
+  }
+}
+
+h1 {
+  padding: 10px 20px;
+  display: block;
+  position: relative;
+  font-family: Impact, Charcoal, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 2px;
+  border-radius: 50%
+}
+
+h1:before, h1:after {
+  content: "";
+  bottom: -240px;
+  width: 10px;
+  height: 270px;
+  display: block;
+  position: absolute;
+  z-index: -2
+}
+
+h1:before {
+  left: 30%;
+  transform: rotate(175deg)
+}
+
+h1:after {
+  right: 30%;
+  transform: rotate(5deg)
+}
+
+[class*="bar"] {
+  background: #fff;
+  width: 170px;
+  left: 50%;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  transform: translate(-50%, 0)
+}
+
+.bar_1 {
+  height: 40px
+}
+
+.bar_2, .bar_3 {
+  height: 10px
+}
+
+.bar_4 {
+  height: 60px
+}
+
+.bar_1 {
+  bottom: 123px
+}
+
+.bar_2 {
+  bottom: 103px
+}
+
+.bar_3 {
+  bottom: 83px
+}
+
+.bar_4 {
+  width: 140px;
+  bottom: 13px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 1px #000;
+  transform: translate(-50%, -50%)
+}
+
+/*                                         ! Animation Gear Lights Ended Here ...
+=======================================================================================================================*/
+
+/* This Is Not Part Of Animation Gear Lights */
+/*
+.me {
+  background: url("../assets/bulb.jpeg")no-repeat center / contain;
+  width: 40px;
+  height: 40px;
+  bottom: 16px;
+  right: 16px;
+  display: block;
+  position: fixed;
+  border-radius: 50%;
+  animation: me 2s linear infinite alternate
+}
+
+@keyframes me {
+  from {
+    transform: translateY(-4px)
+  }
+  to {
+    transform: translateY(4px)
+  }
+}
+
+.me:hover span {
+  right: 50px;
+  opacity: 1;
+  visibility: visible
+}
+
+.me span {
+  width: 150px;
+  top: 10px;
+  right: 0;
+  display: block;
+  position: absolute;
+  color: #008080;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
@@ -31,9 +491,9 @@ body {
   font-weight: normal;
   text-align: center;
   color: #c0c0c0;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 10px;
-  width: 375px;
+  width: 175px;
   margin: 0 auto;
   border-bottom: 3px solid #f3f3f3;
 }
@@ -56,7 +516,7 @@ body {
 .cal caption {
   background: #d44;
   color: #eee;
-  font-size: 15px;
+  font-size: 5px;
 }
 
 .cal th {
