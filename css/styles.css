@@ -449,13 +449,13 @@ h1:after {
   }
 }
 
-/*.me:hover span {
+.me:hover span {
   right: 50px;
   opacity: 1;
   visibility: visible
 }
 
-.me span {
+/*.me span {
   width: 150px;
   top: 10px;
   right: 0;
