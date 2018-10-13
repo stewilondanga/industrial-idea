@@ -455,7 +455,7 @@ h1:after {
   visibility: visible
 }
 
-/*.me span {
+.me span {
   width: 150px;
   top: 10px;
   right: 0;
@@ -473,7 +473,7 @@ h1:after {
   transition: all .5s ease
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
