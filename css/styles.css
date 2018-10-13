@@ -328,7 +328,7 @@ h1, h1:before, h1:after {
   animation: light 10s infinite linear alternate
 }
 
-/*@keyframes light {
+@keyframes light {
   from {
     box-shadow: 0 0 5px #fff
   }
@@ -337,7 +337,7 @@ h1, h1:before, h1:after {
   }
 }
 
-h1 {
+/*h1 {
   padding: 10px 20px;
   display: block;
   position: relative;
