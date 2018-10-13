@@ -364,7 +364,7 @@ h1:before {
   transform: rotate(175deg)
 }
 
-/*h1:after {
+h1:after {
   right: 30%;
   transform: rotate(5deg)
 }
@@ -380,7 +380,7 @@ h1:before {
   transform: translate(-50%, 0)
 }
 
-.bar_1 {
+/*.bar_1 {
   height: 40px
 }
 
