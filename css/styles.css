@@ -277,11 +277,11 @@ body {
   transform: rotate(-23deg)
 }
 
-/*.gear_18, .gear_19 {
+.gear_18, .gear_19 {
   background: #fff
 }
 
-.circle {
+/*.circle {
   background: #000;
   width: 40px;
   height: 40px;
