@@ -349,7 +349,7 @@ h1 {
   border-radius: 50%
 }
 
-/*h1:before, h1:after {
+h1:before, h1:after {
   content: "";
   bottom: -240px;
   width: 10px;
@@ -359,7 +359,7 @@ h1 {
   z-index: -2
 }
 
-h1:before {
+/*h1:before {
   left: 30%;
   transform: rotate(175deg)
 }
