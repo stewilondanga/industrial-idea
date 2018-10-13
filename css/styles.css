@@ -197,12 +197,12 @@ body {
   background: #0000FF
 }
 
-/*.gear_2 {
+.gear_2 {
   background: #D2691E;
   transform: rotate(-9deg)
 }
 
-.gear_3 {
+/*.gear_3 {
   background: #800000;
   transform: rotate(9deg)
 }
