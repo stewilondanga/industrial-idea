@@ -311,11 +311,11 @@ body {
   transform: rotate(90deg)
 }
 
-/*.tooth:nth-of-type(4) {
+.tooth:nth-of-type(4) {
   transform: rotate(135deg)
 }
 
-.title {
+/*.title {
   top: 30%;
   left: 50%;
   display: block;
