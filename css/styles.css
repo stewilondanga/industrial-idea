@@ -404,14 +404,14 @@ h1:after {
   bottom: 83px
 }
 
-/*.bar_4 {
+.bar_4 {
   width: 140px;
   bottom: 13px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%
 }
 
-.dot {
+/*.dot {
   width: 30px;
   height: 30px;
   top: 50%;
