@@ -511,12 +511,12 @@ h1:after {
   font-size: 5px;
 }
 
-/*.cal th {
+.cal th {
   color: #aaa;
   line-height: 200%;
 }
 
-.cal th:first-child {
+/*.cal th:first-child {
   color: #f00;
 }
 
