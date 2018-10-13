@@ -101,13 +101,13 @@ body {
   transform: translate(22%, 0)
 }
 
-/*.container:nth-of-type(10) {
+.container:nth-of-type(10) {
   top: 212px;
   left: 24.5%;
   transform: translate(-24.5%, 0)
 }
 
-.container:nth-of-type(11) {
+/*.container:nth-of-type(11) {
   top: 212px;
   right: 24.5%;
   transform: translate(24.5%, 0)
