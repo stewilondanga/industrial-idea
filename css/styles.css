@@ -119,13 +119,13 @@ body {
   transform: translate(-27.9%, 0)
 }
 
-/*.container:nth-of-type(13) {
+.container:nth-of-type(13) {
   top: 265px;
   right: 27.9%;
   transform: translate(27.9%, 0)
 }
 
-.container:nth-of-type(14) {
+/*.container:nth-of-type(14) {
   top: 316px;
   left: 32.5%;
   transform: translate(-32.5%, 0)
