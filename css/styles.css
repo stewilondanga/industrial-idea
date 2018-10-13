@@ -267,12 +267,12 @@ body {
   transform: rotate(10deg)
 }
 
-/*.gear_16 {
+.gear_16 {
   background: #B8860B;
   transform: rotate(23deg)
 }
 
-.gear_17 {
+/*.gear_17 {
   background: #40E0D0;
   transform: rotate(-23deg)
 }
