@@ -1,4 +1,8 @@
 @charset "utf8";
+*, *:after, *:before, html {
+  box-sizing: border-box
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -27,9 +31,6 @@
 =======================================================================================================================*/
 
 /*
-*, *:after, *:before, html {
-  box-sizing: border-box
-}
 
 body, h1 {
   margin: 0;
