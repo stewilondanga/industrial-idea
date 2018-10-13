@@ -1,3 +1,4 @@
+@charset "utf8";
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,9 +22,10 @@
   height: 1.5em;
 }
 
-@charset "utf8";
+
 /*                                        ! Animation Gear Lights Started Here ...
 =======================================================================================================================*/
+
 /*
 *, *:after, *:before, html {
   box-sizing: border-box
@@ -435,6 +437,7 @@ h1:after {
 =======================================================================================================================*/
 
 /* This Is Not Part Of Animation Gear Lights */
+
 /*
 .me {
   background: url("../assets/bulb.jpeg")no-repeat center / contain;
