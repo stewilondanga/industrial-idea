@@ -384,11 +384,11 @@ h1:after {
   height: 40px
 }
 
-/*.bar_2, .bar_3 {
+.bar_2, .bar_3 {
   height: 10px
 }
 
-.bar_4 {
+/*.bar_4 {
   height: 60px
 }
 
