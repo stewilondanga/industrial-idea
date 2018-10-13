@@ -293,7 +293,7 @@ body {
   border-radius: 50%
 }
 
-/*.tooth {
+.tooth {
   background: inherit;
   width: 10px;
   height: 60px;
@@ -303,7 +303,7 @@ body {
   position: absolute
 }
 
-.tooth:nth-of-type(2) {
+/*.tooth:nth-of-type(2) {
   transform: rotate(45deg)
 }
 
