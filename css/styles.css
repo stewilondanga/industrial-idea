@@ -185,7 +185,7 @@ body {
   }
 }
 
-/*[class*="gear_"] {
+[class*="gear_"] {
   width: 50px;
   height: 50px;
   display: block;
@@ -193,7 +193,7 @@ body {
   border-radius: 50%
 }
 
-.gear_1 {
+/*.gear_1 {
   background: #0000FF
 }
 
