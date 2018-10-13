@@ -3,6 +3,11 @@
   box-sizing: border-box
 }
 
+body, h1 {
+  margin: 0;
+  padding: 0
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -31,11 +36,6 @@
 =======================================================================================================================*/
 
 /*
-
-body, h1 {
-  margin: 0;
-  padding: 0
-}
 
 body {
   background: #000
