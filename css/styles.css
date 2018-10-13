@@ -337,7 +337,7 @@ h1, h1:before, h1:after {
   }
 }
 
-/*h1 {
+h1 {
   padding: 10px 20px;
   display: block;
   position: relative;
@@ -349,7 +349,7 @@ h1, h1:before, h1:after {
   border-radius: 50%
 }
 
-h1:before, h1:after {
+/*h1:before, h1:after {
   content: "";
   bottom: -240px;
   width: 10px;
