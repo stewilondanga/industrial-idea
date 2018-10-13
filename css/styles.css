@@ -47,13 +47,13 @@ body {
   position: absolute
 }
 
-/*.container:nth-of-type(1) {
+.container:nth-of-type(1) {
   top: 10px;
   left: 50%;
   transform: translate(-50%, 0)
 }
 
-.container:nth-of-type(2) {
+/*.container:nth-of-type(2) {
   top: 25px;
   left: 38.1%;
   transform: translate(-38.1%, 0)
