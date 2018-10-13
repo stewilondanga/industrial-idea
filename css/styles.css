@@ -307,11 +307,11 @@ body {
   transform: rotate(45deg)
 }
 
-/*.tooth:nth-of-type(3) {
+.tooth:nth-of-type(3) {
   transform: rotate(90deg)
 }
 
-.tooth:nth-of-type(4) {
+/*.tooth:nth-of-type(4) {
   transform: rotate(135deg)
 }
 
