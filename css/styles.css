@@ -232,12 +232,12 @@ body {
   transform: rotate(-5deg)
 }
 
-/*.gear_9 {
+.gear_9 {
   background: #008000;
   transform: rotate(2deg)
 }
 
-.gear_10 {
+/*.gear_10 {
   background: #D2B48C;
   transform: rotate(2deg)
 }
