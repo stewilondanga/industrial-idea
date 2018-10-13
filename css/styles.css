@@ -428,7 +428,6 @@ h1:after {
 
 /* This Is Not Part Of Animation Gear Lights */
 
-/*
 .me {
   background: url("../assets/bulb.jpeg")no-repeat center / contain;
   width: 40px;
@@ -441,7 +440,7 @@ h1:after {
   animation: me 2s linear infinite alternate
 }
 
-@keyframes me {
+/*@keyframes me {
   from {
     transform: translateY(-4px)
   }
