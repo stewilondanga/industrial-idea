@@ -440,7 +440,7 @@ h1:after {
   animation: me 2s linear infinite alternate
 }
 
-/*@keyframes me {
+@keyframes me {
   from {
     transform: translateY(-4px)
   }
@@ -449,7 +449,7 @@ h1:after {
   }
 }
 
-.me:hover span {
+/*.me:hover span {
   right: 50px;
   opacity: 1;
   visibility: visible
