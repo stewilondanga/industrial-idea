@@ -315,7 +315,7 @@ body {
   transform: rotate(135deg)
 }
 
-/*.title {
+.title {
   top: 30%;
   left: 50%;
   display: block;
@@ -323,7 +323,7 @@ body {
   transform: translate(-50%, -30%)
 }
 
-h1, h1:before, h1:after {
+/*h1, h1:before, h1:after {
   background: #fff;
   animation: light 10s infinite linear alternate
 }
