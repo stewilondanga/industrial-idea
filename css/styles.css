@@ -494,7 +494,7 @@ h1:after {
   display: inline-block;
   background: #ffe;
   color: #555;
-  font-size: 6px;
+  font-size: 3px;
   text-align: center;
   transform: scale(1);
   transition: all 0.2s linear;
